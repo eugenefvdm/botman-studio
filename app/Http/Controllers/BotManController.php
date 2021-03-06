@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Conversations\ExampleConversation;
 use BotMan\BotMan\BotMan;
 use Illuminate\Http\Request;
-use App\Conversations\ExampleConversation;
 
 class BotManController extends Controller
 {
