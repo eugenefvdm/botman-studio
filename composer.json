@@ -14,14 +14,20 @@
         "botman/botman": "~2.0",
         "botman/driver-web": "~1.0",
         "botman/studio-addons": "~1.3",
-        "botman/tinker": "~1.0",
+        "botman/tinker": "^1.3",
         "fideloper/proxy": "^4.4",
+        "fruitcake/laravel-cors": "^2.0",
+        "guzzlehttp/guzzle": "^7.0.1",        
         "laravel/framework": "^8.31",
         "laravel/tinker": "^2.5",
-        "laravel/ui": "^3.2",
-        "fruitcake/laravel-cors": "^2.0",
-        "guzzlehttp/guzzle": "^7.0.1"
+        "laravel/ui": "^3.2"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/eugenevdm/tinker"
+        }
+    ],
     "require-dev": {
         "mockery/mockery": "^1.4.2",
         "nunomaduro/collision": "^5.0",

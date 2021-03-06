@@ -3,6 +3,9 @@
 
 ## About BotMan Studio
 
+### I forked BotMan studio and shifted it from Laravel 5.7 to Laravel 8.
+### I also addressed the Tinker tag 1.3.0 issue https://github.com/botman/tinker/issues/19
+
 While BotMan itself is framework agnostic, BotMan is also available as a bundle with the great [Laravel](https://laravel.com) PHP framework. This bundled version is called BotMan Studio and makes your chatbot development experience even better. By providing testing tools, an out of the box web driver implementation and additional tools like an enhanced CLI with driver installation, class generation and configuration support, it speeds up the development significantly.
 
 ## Documentation
