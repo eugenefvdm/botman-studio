@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Conversations\ExampleConversation;
+use App\Conversations\HowAreYouConversation;
 use BotMan\BotMan\BotMan;
 use Illuminate\Http\Request;
 
@@ -34,4 +35,9 @@ class BotManController extends Controller
     {
         $bot->startConversation(new ExampleConversation());
     }
+
+    public function startHowAreYouConversation(BotMan $bot) {
+        $bot->startConversation(new HowAreYouConversation());
+    }
+    
 }
